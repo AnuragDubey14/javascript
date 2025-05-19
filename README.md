@@ -1,1 +1,1 @@
-# javascript
+# javascript from basics to advanced

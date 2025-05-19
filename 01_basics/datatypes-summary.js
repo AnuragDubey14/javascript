@@ -38,3 +38,33 @@ const myFunction = function(){
 
 console.log(typeof(myObj))
 console.log(myObj.age)
+
+
+
+
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory explanation
+// stack (Primitive), Heap (Non - primitive)
+
+let myYotubeName = "abcyoutubedotcom"
+
+let anotherName = myYotubeName
+anotherName="bcdyoutube.com"
+
+console.log(anotherName);
+console.log(myYotubeName);
+
+let user={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo= user
+
+userTwo.upi="abc@ybl"
+console.log(user.upi)
